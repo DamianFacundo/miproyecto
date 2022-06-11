@@ -11,9 +11,8 @@
 
 
 body{
-   
-    background: linear-gradient(93deg, rgba(93,221,216,1) 0%, rgba(180,116,237,1) 100%);
-   
+    background: linear-gradient(93deg, rgba(221,93,220,1) 0%, rgba(244,207,135,1) 0%, rgba(232,197,222,1) 52%, rgba(220,223,218,1) 89%);
+    
 }
 
 /* ESTILO DEL TITULO*/
