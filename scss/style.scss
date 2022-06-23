@@ -1,0 +1,700 @@
+
+
+/*RESET*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+}
+
+/* BOOTSTRAP  navbar*/
+
+.navbar{
+    padding: 30px 0;
+    font-size: 20px;
+    color: blue;
+}
+
+
+
+
+
+
+
+body{
+    background: linear-gradient(156deg, rgba(238,174,202,1) 20%, rgba(191,165,236,1) 75%);
+    
+}
+
+/* ESTILO DEL TITULO*/
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid rgb(250, 219, 250);
+}
+
+h1{
+    display: inline-block;
+    margin: 20px;
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+    
+}
+
+
+/* H2 de mis pages*/
+.Pro{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+.fid{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+.Acce{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+.con{
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+
+/* MENU */
+.menu{
+    display: inline-block;
+
+}
+
+
+
+
+.menu ul li{
+list-style: none;
+display: inline-block;
+position: relative;
+padding: 10px;
+font-size: 25px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 20px;
+font-family: 'Roboto', sans-serif;
+
+
+}
+
+
+
+.productos{
+    text-decoration: none;
+    color: black;
+    
+}
+.productos:hover{
+    transform: translate(10px, 10px);
+    background-color: rgb(191, 97, 245);
+  
+    
+}
+
+
+
+.fidgettoys{
+    text-decoration: none;
+    color: black;
+}
+.fidgettoys:hover{
+    transform: translate(10px, 10px);
+    background-color: rgb(191, 97, 245);
+}
+
+.accesorios{
+    text-decoration: none;
+    color: black;
+}
+.accesorios:hover{
+    transform: translate(10px, 10px);
+    background-color: rgb(191, 97, 245);
+}
+
+.contact{
+    text-decoration: none;
+    color: black;
+}
+.contact:hover{
+    transform: translate(10px, 10px);
+    background-color: rgb(191, 97, 245);
+}
+
+
+
+
+ 
+/* ESTILO MAIN*/
+
+.fidget{
+    width: 100%;
+    min-height: 100px;
+    padding: 50px;
+    margin: 0;
+    
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.fidget div{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    background-color: beige;
+
+}
+
+.uno{
+    background-image: url(../img/imagenes/fidgettoys/IMG_238B10DC2C78-1.jpeg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.dos{
+    background-image: url(../img/imagenes/fidgettoys/IMG_3A4419736531-1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tres{
+    background-image: url(../img/imagenes/fidgettoys/IMG_A4685EE8E61B-1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cuatro{
+    background-image: url(../img/imagenes/fidgettoys/IMG_BCD80D572961-1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cinco{
+    background-image: url(../img/imagenes/fidgettoys/IMG_D69D893E671D-1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.seis{
+    background-image: url(../img/imagenes/fidgettoys/IMG_E10C719F0AC8-1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+.entrada{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    block-size: none;
+    margin: 10px;
+    
+}
+
+.coco{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    block-size: none;
+    margin: 10px;
+    
+}
+
+.panam{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    block-size: none;
+    margin: 10px;
+}   
+
+.chicosHarry{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    block-size: none;
+    margin: 10px;
+}
+
+
+
+
+
+   
+
+    
+    
+    
+
+
+main  {
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+
+.tiendaDeco{
+    
+    display: inline-block;
+    font-size: 45px;
+    margin: 15px;
+    padding: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+    
+}
+
+.regalos{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.comprarAhora{
+    background-color: rgb(191, 218, 243 );
+    font-size: 38px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   padding: 20px;
+   margin: 20px;
+   border-radius: 20px;
+   display: inline-block;
+   transition: 2s;
+   border: 2px solid pink;
+   
+}
+.comprarAhora:hover{
+    background-color: rgb(196, 148, 241);
+    transform: scale(1.3);
+}
+
+.galeria{
+    width: 100%;
+    min-height: 100px;
+    padding: 50px;
+    margin: 0;
+    
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.galeria div{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    background-color: beige;
+
+}
+
+.hijo-1{
+    background-image: url(../img/frases/frase1.jpeg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.hijo-2{
+    background-image: url(../img/frases/frase2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hijo-3{
+    background-image: url(../img/frases/frase3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hijo-4{
+    background-image: url(../img/frases/frase4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* ASIDE FALTA COMPLETAR */
+aside{
+    
+    min-height: 140px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(252, 166, 250);
+    display: flex;
+}
+
+
+/* FOOTER */
+footer{
+    border-top: 0.5px solid black;
+    text-align:center ;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    
+}
+
+.listFooter{
+    display: flex;
+    justify-content: center;
+}
+
+.listFooter li img{
+    width: 25px;
+    margin: 5px;
+    
+}
+
+.listFooter li{
+    list-style: none;
+}
+
+footer div .yo{
+    font-size: 100px;
+}
+
+
+
+    
+    
+
+
+
+
+
+
+
+
+.contacto{
+    color: blueviolet;
+    text-align:left ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+
+/*HOME*/
+
+.home{
+    
+    background-color: rgb(234, 187, 238);
+    display: block;
+    text-decoration: none;
+    color: black;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+   
+    
+    
+    font-size: 50px;
+   
+    margin: 0 auto;
+    margin-top: 30px;
+    
+    
+}
+
+
+    
+
+
+/* PRODUCTOS CON FLEX*/
+
+
+.uno{
+    font-size: 40px;
+    margin: 30px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.card{
+    width: 20rem;
+    height: 30rem;
+    border: 10px solid rgb(167, 203, 248);
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgb(248, 238, 248);
+    padding: 2px;
+    
+}
+
+
+
+ .card img{
+    width: 100%;
+    height: 75%;
+}
+
+main .Prod{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+/*FIDGETTOYS CON GRID*/
+
+.fidget{
+    width: 100%;
+    min-height: 100px;
+    padding: 50px;
+    margin: 0;
+    
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.fidget div{
+    width: 200px;
+    height: 200px;
+    margin: 5px;
+    background-color: beige;
+}
+
+/* ACCESORIOS*/
+
+.straps1{
+    position: relative;
+    width: 160px;
+    height: 160px;
+    block-size: none;
+    margin: 10px;
+}
+
+.anillo{
+    position: relative;
+    width: 160px;
+    height: 160px;
+    block-size: none;
+    margin: 10px;
+}
+
+.straps2{
+    position: relative;
+    width: 160px;
+    height: 160px;
+    block-size: none;
+    margin: 10px;
+}
+
+/* PAGE CONTACTO*/
+
+.contactoInfo{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 30px;
+
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+
+/* MEDIA QUERIES 
+
+@media screen and (max-width:320px) {
+  
+ body{
+   
+        background:radial-gradient(circle, rgba(63,251,225,1) 0%, rgba(70,94,252,1) 100%) ;
+       
+        }
+
+.galeria{
+        display: none;
+        }
+.fotos{
+     display: none;
+      }
+
+
+aside {
+    display: none;
+}
+
+.tiendaDeco{
+    font-size: 20px;
+}
+
+.regalos{
+    font-size: 15px;
+}
+
+.comprarAhora{
+    font-size: 17px;
+}
+  
+
+}
+
+@media screen and (max-width:600px) {
+  
+    body{
+      
+           background:radial-gradient(circle, rgba(63,251,225,1) 0%, rgba(70,94,252,1) 100%) ;
+          
+           }
+   
+  
+           
+   .fotos{
+        display: none;
+         }
+   
+  aside{
+      display: none;
+
+ 
+  } 
+ .tiendaDeco{
+     font-size: 30px;
+ }
+
+ .regalos{
+     font-size: 20px;
+ }
+
+ .comprarAhora{
+     font-size: 20px;
+ }
+   
+   }
+
+ */ 
+
+
+
+ /* MEDIA Q nueva celulares*/
+ 
+ @media (max-width: 550px) and (min-width: 326px){
+     body{
+        
+        background: linear-gradient(93deg, rgba(221,93,220,1) 0%, rgba(241,172,252,1) 0%, rgba(232,197,222,1) 52%, rgba(220,223,218,1) 89%);
+     }
+  .galeria{
+        display: none;
+        }
+    .fotos{
+     display: none;
+      }
+
+
+aside {
+    display: none;
+}
+
+.tiendaDeco{
+    font-size: 20px;
+}
+
+.regalos{
+    font-size: 15px;
+}
+
+.comprarAhora{
+    font-size: 17px;
+}
+.comprarAhora:hover{
+    background-color: rgb(255, 218, 150);
+    transform: scale(1.5);
+}
+ }
+
+
+/* MEDIA Q para tablets*/
+
+@media (max-width: 900px) and (min-width: 551px){
+    body{
+       
+       background: linear-gradient(93deg, rgba(221,93,220,1) 0%, rgba(241,172,252,1) 0%, rgba(232,197,222,1) 52%, rgba(220,223,218,1) 89%);
+    }
+
+    .fotos{
+        display: none;
+         }
+   
+  aside{
+      display: none;
+
+ 
+  } 
+ .tiendaDeco{
+     font-size: 30px;
+ }
+
+ .regalos{
+     font-size: 20px;
+ }
+
+ .comprarAhora{
+     font-size: 20px;
+ }
+
+ .comprarAhora:hover{
+    background-color: rgb(255, 218, 150);
+    transform: scale(1.5);
+}
+   
+
+
+}
+
+//import
+
+@import "utilities/variables";
+
+
+header .sass{
+    background-color: $color-principal;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+
+
+
+
+  
+    
+}
