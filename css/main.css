@@ -1,65 +1,7 @@
-/*RESET*/
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box; }
-
-/* BOOTSTRAP  navbar*/
-.navbar {
-  padding: 30px 0;
-  font-size: 20px;
-  color: blue; }
-
-body {
-  background: linear-gradient(156deg, #eeaeca 20%, #bfa5ec 75%); }
-
-/* ESTILO DEL TITULO*/
-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  border: 1px solid #fadbfa; }
-
-h1 {
-  display: inline-block;
-  margin: 20px;
-  font-size: 45px;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
-
-/* H2 de mis pages*/
-.Pro {
-  font-size: 40px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding: 20px; }
-
-.fid {
-  font-size: 40px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding: 20px; }
-
-.Acce {
-  font-size: 40px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding: 20px; }
-
-.con {
-  font-size: 40px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding: 20px; }
-
-/* MENU */
-.menu {
-  display: inline-block; }
-
-.menu ul li {
-  list-style: none;
-  display: inline-block;
-  position: relative;
-  padding: 10px;
-  font-size: 25px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  margin: 20px;
-  font-family: 'Roboto', sans-serif; }
 
 .productos {
   text-decoration: none;
@@ -92,18 +34,6 @@ h1 {
 .contact:hover {
   transform: translate(10px, 10px);
   background-color: #bf61f5; }
-
-/* ESTILO MAIN*/
-.fidget {
-  width: 100%;
-  min-height: 100px;
-  padding: 50px;
-  margin: 0;
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  gap: 5px;
-  justify-content: center;
-  align-items: center; }
 
 .fidget div {
   width: 200px;
@@ -146,28 +76,32 @@ h1 {
   width: 300px;
   height: 300px;
   block-size: none;
-  margin: 10px; }
+  margin: 10px;
+  border: 1px solid black; }
 
 .coco {
   position: relative;
   width: 300px;
   height: 300px;
   block-size: none;
-  margin: 10px; }
+  margin: 10px;
+  border: 1px solid black; }
 
 .panam {
   position: relative;
   width: 300px;
   height: 300px;
   block-size: none;
-  margin: 10px; }
+  margin: 10px;
+  border: 1px solid black; }
 
 .chicosHarry {
   position: relative;
   width: 300px;
   height: 300px;
   block-size: none;
-  margin: 10px; }
+  margin: 10px;
+  border: 1px solid black; }
 
 main {
   margin-top: 10px;
@@ -179,37 +113,6 @@ main {
   margin: 15px;
   padding: 15px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
-
-.regalos {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: 30px;
-  padding: 10px; }
-
-.comprarAhora {
-  background-color: #bfdaf3;
-  font-size: 38px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 20px;
-  margin: 20px;
-  border-radius: 20px;
-  display: inline-block;
-  transition: 2s;
-  border: 2px solid pink; }
-
-.comprarAhora:hover {
-  background-color: #c494f1;
-  transform: scale(1.3); }
-
-.galeria {
-  width: 100%;
-  min-height: 100px;
-  padding: 50px;
-  margin: 0;
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  gap: 5px;
-  justify-content: center;
-  align-items: center; }
 
 .galeria div {
   width: 200px;
@@ -237,36 +140,6 @@ main {
   background-size: cover;
   background-repeat: no-repeat; }
 
-/* ASIDE FALTA COMPLETAR */
-aside {
-  min-height: 140px;
-  padding: 10px;
-  margin: 10px;
-  background-color: #fca6fa;
-  display: flex; }
-
-/* FOOTER */
-footer {
-  border-top: 0.5px solid black;
-  text-align: center;
-  margin: 10px;
-  padding: 10px;
-  width: 100%; }
-
-.listFooter {
-  display: flex;
-  justify-content: center; }
-
-.listFooter li img {
-  width: 25px;
-  margin: 5px; }
-
-.listFooter li {
-  list-style: none; }
-
-footer div .yo {
-  font-size: 100px; }
-
 .contacto {
   color: blueviolet;
   text-align: left;
@@ -274,20 +147,6 @@ footer div .yo {
   font-size: 25px;
   text-transform: uppercase; }
 
-/*HOME*/
-.home {
-  background-color: #eabbee;
-  display: block;
-  text-decoration: none;
-  color: black;
-  width: 150px;
-  height: 50px;
-  text-align: center;
-  font-size: 50px;
-  margin: 0 auto;
-  margin-top: 30px; }
-
-/* PRODUCTOS CON FLEX*/
 .uno {
   font-size: 40px;
   margin: 30px;
@@ -311,47 +170,12 @@ main .Prod {
   flex-wrap: wrap;
   justify-content: center; }
 
-/*FIDGETTOYS CON GRID*/
-.fidget {
-  width: 100%;
-  min-height: 100px;
-  padding: 50px;
-  margin: 0;
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  gap: 5px;
-  justify-content: center;
-  align-items: center; }
-
 .fidget div {
   width: 200px;
   height: 200px;
   margin: 5px;
   background-color: beige; }
 
-/* ACCESORIOS*/
-.straps1 {
-  position: relative;
-  width: 160px;
-  height: 160px;
-  block-size: none;
-  margin: 10px; }
-
-.anillo {
-  position: relative;
-  width: 160px;
-  height: 160px;
-  block-size: none;
-  margin: 10px; }
-
-.straps2 {
-  position: relative;
-  width: 160px;
-  height: 160px;
-  block-size: none;
-  margin: 10px; }
-
-/* PAGE CONTACTO*/
 .contactoInfo {
   display: flex;
   justify-content: center;
@@ -359,86 +183,12 @@ main .Prod {
   font-size: 30px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
 
-/* MEDIA QUERIES 
-
-@media screen and (max-width:320px) {
-  
- body{
-   
-        background:radial-gradient(circle, rgba(63,251,225,1) 0%, rgba(70,94,252,1) 100%) ;
-       
-        }
-
-.galeria{
-        display: none;
-        }
-.fotos{
-     display: none;
-      }
-
-
-aside {
-    display: none;
-}
-
-.tiendaDeco{
-    font-size: 20px;
-}
-
-.regalos{
-    font-size: 15px;
-}
-
-.comprarAhora{
-    font-size: 17px;
-}
-  
-
-}
-
-@media screen and (max-width:600px) {
-  
-    body{
-      
-           background:radial-gradient(circle, rgba(63,251,225,1) 0%, rgba(70,94,252,1) 100%) ;
-          
-           }
-   
-  
-           
-   .fotos{
-        display: none;
-         }
-   
-  aside{
-      display: none;
-
- 
-  } 
- .tiendaDeco{
-     font-size: 30px;
- }
-
- .regalos{
-     font-size: 20px;
- }
-
- .comprarAhora{
-     font-size: 20px;
- }
-   
-   }
-
- */
-/* MEDIA Q nueva celulares*/
 @media (max-width: 550px) and (min-width: 326px) {
   body {
     background: linear-gradient(93deg, #dd5ddc 0%, #f1acfc 0%, #e8c5de 52%, #dcdfda 89%); }
   .galeria {
     display: none; }
   .fotos {
-    display: none; }
-  aside {
     display: none; }
   .tiendaDeco {
     font-size: 20px; }
@@ -450,13 +200,10 @@ aside {
     background-color: #ffda96;
     transform: scale(1.5); } }
 
-/* MEDIA Q para tablets*/
 @media (max-width: 900px) and (min-width: 551px) {
   body {
     background: linear-gradient(93deg, #dd5ddc 0%, #f1acfc 0%, #e8c5de 52%, #dcdfda 89%); }
   .fotos {
-    display: none; }
-  aside {
     display: none; }
   .tiendaDeco {
     font-size: 30px; }
@@ -468,8 +215,83 @@ aside {
     background-color: #ffda96;
     transform: scale(1.5); } }
 
-header .sass {
-  background-color: grey;
-  font-size: 30px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  display: flex; }
+body {
+  background: linear-gradient(156deg, #ffc8dc 0%, #ffccdd 7%, #fee8ee 15%, #fafaea 53%, #99eeff 93%, #b5e0ff 97%); }
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 0.5px solid black; }
+  header h1 {
+    display: inline-block;
+    margin: 20px;
+    font-size: 45px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    color: black; }
+  header .navbar {
+    padding: 30px 0;
+    font-size: 20px; }
+
+footer {
+  border-top: 0.5px solid black;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  width: 100%; }
+  footer .listFooter {
+    display: flex;
+    justify-content: center; }
+    footer .listFooter li {
+      list-style: none; }
+      footer .listFooter li img {
+        width: 30px;
+        height: 30px;
+        margin: 10px; }
+  footer .yo {
+    font-size: 20px;
+    color: black;
+    text-decoration: none; }
+
+.comprarAhora {
+  background-color: #bfdaf3;
+  font-size: 38px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 20px;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  transition: 2s;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black; }
+
+.comprarAhora:hover {
+  background-color: #c494f1;
+  transform: scale(1.3); }
+
+h2 {
+  font-size: 40px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 20px; }
+
+.card m-2 p-3 {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  block-size: none;
+  margin: 10px; }
+
+.galeria, .fidget {
+  width: 100%;
+  min-height: 100px;
+  padding: 50px;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 5px;
+  justify-content: center;
+  align-items: center; }
