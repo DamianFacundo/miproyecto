@@ -6,6 +6,8 @@
    
 }
 
+@import "utilities/variables";
+
 .productos{
     text-decoration: none;
     color: black;  
@@ -84,50 +86,11 @@
     background-repeat: no-repeat;
 }
 
-.entrada{
-    position: relative;
-    width: 300px;
-    height: 300px;
-    block-size: none;
-    margin: 10px;
-    border: 1px solid black
-    
-}
-
-.coco{
-    position: relative;
-    width: 300px;
-    height: 300px;
-    block-size: none;
-    margin: 10px;
-    border: 1px solid black
-    
-    
-}
-
-.panam{
-    position: relative;
-    width: 300px;
-    height: 300px;
-    block-size: none;
-    margin: 10px;
-    border: 1px solid black
-}   
-
-.chicosHarry{
-    position: relative;
-    width: 300px;
-    height: 300px;
-    block-size: none;
-    margin: 10px;
-    border: 1px solid black
-}
 main  {
     margin-top: 10px;
     text-align: center;
 
 }
-
 
 .tiendaDeco{
     
@@ -135,13 +98,8 @@ main  {
     font-size: 45px;
     margin: 15px;
     padding: 15px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
-    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
 }
-
-
-
 
 .galeria div{
     width: 200px;
@@ -293,10 +251,6 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    
 }
 
-
-
-@import "utilities/variables";
-
 body{
     background: $color-principal;
 }
@@ -401,12 +355,36 @@ h2{
     align-items: center;
 }
 .galeria{
-    @extend %fotos
+    @extend %fotos;
 }
 
 .fidget{
-    @extend %fotos
+     @extend %fotos;
 }
+
+%home{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    block-size: none;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.entrada{
+    @extend %home;
+}
+.coco{
+    @extend %home;
+}
+.panam{
+    @extend %home;
+}
+.chicosHarry{
+    @extend %home;
+}
+
+
 
 
 
