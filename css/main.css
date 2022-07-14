@@ -271,3 +271,6 @@ h2 {
   block-size: none;
   margin: 10px;
   border: 1px solid black; }
+
+.navbar-toggler-icon {
+  background-color: black; }

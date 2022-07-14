@@ -8,7 +8,7 @@
 
 .productos{
     text-decoration: none;
-    color: black;  
+    color: $color-secundario;  
 }
 .productos:hover{
     transform: translate(10px, 10px);
@@ -16,7 +16,7 @@
 }
 .fidgettoys{
     text-decoration: none;
-    color: black;
+    color: $color-secundario;
 }
 .fidgettoys:hover{
     transform: translate(10px, 10px);
@@ -24,7 +24,7 @@
 }
 .accesorios{
     text-decoration: none;
-    color: black;
+    color: $color-secundario;
 }
 .accesorios:hover{
     transform: translate(10px, 10px);
@@ -32,7 +32,7 @@
 }
 .contact{
     text-decoration: none;
-    color: black;
+    color: $color-secundario;
 }
 .contact:hover{
     transform: translate(10px, 10px);
@@ -357,6 +357,9 @@ h2{
     @extend %home;
 }
 
+.navbar-toggler-icon{
+    background-color: $color-secundario;
+}
 
 
 
