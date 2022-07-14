@@ -1,11 +1,9 @@
-
 *{
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
    
 }
-
 @import "utilities/variables";
 
 .productos{
@@ -16,7 +14,6 @@
     transform: translate(10px, 10px);
     background-color: rgb(191, 97, 245);   
 }
-
 .fidgettoys{
     text-decoration: none;
     color: black;
@@ -42,7 +39,6 @@
     background-color: rgb(191, 97, 245);
 }
 
-
 .fidget div{
     width: 200px;
     height: 200px;
@@ -50,14 +46,12 @@
     background-color: beige;
 
 }
-
 .uno{
     background-image: url(../img/imagenes/fidgettoys/IMG_238B10DC2C78-1.jpeg) ;
     background-size: cover;
     background-repeat: no-repeat;
 
 }
-
 .dos{
     background-image: url(../img/imagenes/fidgettoys/IMG_3A4419736531-1.jpeg);
     background-size: cover;
@@ -73,34 +67,27 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 .cinco{
     background-image: url(../img/imagenes/fidgettoys/IMG_D69D893E671D-1.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 .seis{
     background-image: url(../img/imagenes/fidgettoys/IMG_E10C719F0AC8-1.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 main  {
     margin-top: 10px;
     text-align: center;
-
 }
-
 .tiendaDeco{
-    
     display: inline-block;
     font-size: 45px;
     margin: 15px;
     padding: 15px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
 }
-
 .galeria div{
     width: 200px;
     height: 200px;
@@ -108,14 +95,11 @@ main  {
     background-color: beige;
 
 }
-
 .hijo-1{
     background-image: url(../img/frases/frase1.jpeg) ;
     background-size: cover;
     background-repeat: no-repeat;
-
 }
-
 .hijo-2{
     background-image: url(../img/frases/frase2.jpeg);
     background-size: cover;
@@ -131,8 +115,6 @@ main  {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
-
 .contacto{
     color: blueviolet;
     text-align:left ;
@@ -140,9 +122,6 @@ main  {
     font-size: 25px;
     text-transform: uppercase;
 }
-
-
-
 .uno{
     font-size: 40px;
     margin: 30px;
@@ -158,7 +137,6 @@ main  {
     padding: 2px;
     
 }
-
  .card img{
     width: 100%;
     height: 75%;
@@ -169,7 +147,6 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
 }
-
 
 .fidget div{
     width: 200px;
@@ -201,8 +178,6 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
      display: none;
       }
 
-
-
 .tiendaDeco{
     font-size: 20px;
 }
@@ -219,7 +194,6 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     transform: scale(1.5);
 }
  }
-
 
 @media (max-width: 900px) and (min-width: 551px){
     body{
@@ -247,8 +221,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
  .comprarAhora:hover{
     background-color: rgb(255, 218, 150);
     transform: scale(1.5);
-}
-   
+}   
 }
 
 body{
