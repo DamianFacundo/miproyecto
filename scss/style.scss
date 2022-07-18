@@ -179,11 +179,11 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       }
 
 .tiendaDeco{
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .regalos{
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .comprarAhora{
@@ -226,6 +226,9 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 body{
     background: $color-principal;
+    position: relative;
+    padding-bottom: 18em;
+    min-height: 100vh;
 }
 
 header{
@@ -253,6 +256,9 @@ footer{
   text-align: center;
   margin: 10px;
   padding: 10px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
   width: 100%;
   .listFooter{
     display: flex;

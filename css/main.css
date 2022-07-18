@@ -159,9 +159,9 @@ main .Prod {
   .fotos {
     display: none; }
   .tiendaDeco {
-    font-size: 20px; }
+    font-size: 25px; }
   .regalos {
-    font-size: 15px; }
+    font-size: 20px; }
   .comprarAhora {
     font-size: 17px; }
   .comprarAhora:hover {
@@ -184,7 +184,10 @@ main .Prod {
     transform: scale(1.5); } }
 
 body {
-  background: linear-gradient(156deg, #ffc8dc 0%, #ffccdd 7%, #fee8ee 15%, #fafaea 53%, #99eeff 93%, #b5e0ff 97%); }
+  background: linear-gradient(156deg, #ffc8dc 0%, #ffccdd 7%, #fee8ee 15%, #fafaea 53%, #99eeff 93%, #b5e0ff 97%);
+  position: relative;
+  padding-bottom: 18em;
+  min-height: 100vh; }
 
 header {
   display: flex;
@@ -207,6 +210,9 @@ footer {
   text-align: center;
   margin: 10px;
   padding: 10px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
   width: 100%; }
   footer .listFooter {
     display: flex;
